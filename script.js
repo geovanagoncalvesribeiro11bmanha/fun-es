@@ -49,6 +49,7 @@ button.addEventListener("click", function (){
 console.log (numero)
 */
 
+/* EXEMPLO 6: arrow function
 let numero = 10 
 const button = document.querySelector("button")
 button.addEventListener("click", () => {
@@ -56,3 +57,9 @@ button.addEventListener("click", () => {
     console.log(numero)
 })
 console.log(numero)
+*/
+
+/* EXEMPLO 7
+let somar = (valor1, valor2) => valor1 + valor2
+console.log (somar(30, 7))
+*/

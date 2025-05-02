@@ -63,3 +63,8 @@ console.log(numero)
 let somar = (valor1, valor2) => valor1 + valor2
 console.log (somar(30, 7))
 */
+
+function mensagemBoasVindas(nome, cargo){
+    alert(`Seja bem-vindo (a)! ${cargo} ${nome}`)
+}
+mensagemBoasVindas("Caps", "Louco")

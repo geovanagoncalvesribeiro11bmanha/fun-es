@@ -28,6 +28,7 @@ console.log(multiplicacao2)
 console.log(multiplicacao3)
 */
 
+/* EXEMPLO 4
 function parOuImpar (numero){
     if (numero %2 === 0){
         return "PAR"
@@ -36,3 +37,14 @@ function parOuImpar (numero){
     }
 }
 console.log(parOuImpar(100))
+*/
+
+/* EXEMPLO 5: FUNÇÃO ANÔNIMA
+let numero = 10
+const button = document.querySelector("button")
+button.addEventListener("click", function (){
+    numero++
+    console.log(numero)
+})
+console.log (numero)
+*/
